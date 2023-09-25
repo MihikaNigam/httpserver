@@ -24,16 +24,16 @@ commercial examples of http server: apache, ngnix
 more info on golangs http package are given [here] (https://pkg.go.dev/net/http)
 
 ### Working of an http server
-listening for requests
-handle requests
-resource retrieval
-response generation
-sending the response
+listening for requests  
+handle requests  
+resource retrieval  
+response generation  
+sending the response  
 client rendering
 
 
 ### More Info on how server in golang works
-Request reaches to the server
-Request then goes through a multiplexer
-The multiplexer macthes the route to specific handlers
+Request reaches to the server  
+Request then goes through a multiplexer  
+The multiplexer macthes the route to specific handlers  
 handler is a function that runs on every request made
